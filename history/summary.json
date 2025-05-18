@@ -22,19 +22,19 @@
     "url": "https://test.sukuncloud.com",
     "icon": "https://icons.duckduckgo.com/ip3/test.sukuncloud.com.ico",
     "slug": "sukun-cloud-mobile",
-    "status": "down",
-    "uptime": "1.50%",
-    "uptimeDay": "1.50%",
-    "uptimeWeek": "1.50%",
-    "uptimeMonth": "1.50%",
-    "uptimeYear": "1.50%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
+    "status": "up",
+    "uptime": "0.64%",
+    "uptimeDay": "0.64%",
+    "uptimeWeek": "0.64%",
+    "uptimeMonth": "0.64%",
+    "uptimeYear": "0.64%",
+    "time": 1342,
+    "timeDay": 1342,
+    "timeWeek": 1342,
+    "timeMonth": 1342,
+    "timeYear": 1342,
     "dailyMinutesDown": {
-      "2025-05-18": 0
+      "2025-05-18": 6
     }
   }
 ]
