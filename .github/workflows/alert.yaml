@@ -8,7 +8,7 @@
       -d '{
         "sender": {
           "name": "Upptime Alert",
-          "email": "alert@sukuncloud.com"
+          "email": "contact@sukuncloud.com"
         },
         "to": [{
           "email": "suresh.mahawar1988@gmail.com",
