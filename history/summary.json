@@ -1,20 +1,40 @@
 [
   {
-    "name": "Sukuncloud",
-    "url": "https://www.sukuncloud.com",
-    "icon": "https://icons.duckduckgo.com/ip3/www.sukuncloud.com.ico",
-    "slug": "sukuncloud",
+    "name": "SukunCloud Cloudflare",
+    "url": "https://sukuncloud.com",
+    "icon": "https://icons.duckduckgo.com/ip3/sukuncloud.com.ico",
+    "slug": "sukun-cloud-cloudflare",
     "status": "up",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1133,
-    "timeDay": 1133,
-    "timeWeek": 1133,
-    "timeMonth": 1133,
-    "timeYear": 1133,
+    "time": 142,
+    "timeDay": 142,
+    "timeWeek": 142,
+    "timeMonth": 142,
+    "timeYear": 142,
     "dailyMinutesDown": {}
+  },
+  {
+    "name": "SukunCloud Mobile",
+    "url": "https://test.sukuncloud.com",
+    "icon": "https://icons.duckduckgo.com/ip3/test.sukuncloud.com.ico",
+    "slug": "sukun-cloud-mobile",
+    "status": "up",
+    "uptime": "19.65%",
+    "uptimeDay": "19.65%",
+    "uptimeWeek": "19.65%",
+    "uptimeMonth": "19.65%",
+    "uptimeYear": "19.65%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2025-05-18": 0
+    }
   }
 ]
