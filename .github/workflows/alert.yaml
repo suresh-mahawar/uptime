@@ -1,19 +1,28 @@
-- name: Send Email with Brevo
-  if: github.event_name == 'issues' && github.event.action == 'opened'
-  run: |
-    curl -X POST https://api.brevo.com/v3/smtp/email \
-      -H "accept: application/json" \
-      -H "api-key: ${{ secrets.BREVO_API_KEY }}" \
-      -H "content-type: application/json" \
-      -d '{
-        "sender": {
-          "name": "Upptime Alert",
-          "email": "contact@sukuncloud.com"
-        },
-        "to": [{
-          "email": "suresh.mahawar1988@gmail.com",
-          "name": "Sukun"
-        }],
-        "subject": "Upptime Alert: New Downtime Issue",
-        "htmlContent": "<p>A new issue has been created for a downtime event. Check: <a href=\"https://github.com/${{ github.repository }}/issues\">GitHub Issues</a></p>"
-      }'
+name: Send Email on Issue Creation
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  send-email:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Email with Brevo
+        run: |
+          curl -X POST https://api.brevo.com/v3/smtp/email \
+            -H "accept: application/json" \
+            -H "api-key: ${{ secrets.BREVO_API_KEY }}" \
+            -H "content-type: application/json" \
+            -d '{
+              "sender": {
+                "name": "Upptime Bot",
+                "email": "contact@sukuncloud.com"
+              },
+              "to": [{
+                "email": "suresh.mahawar1988@gmail.com",
+                "name": "Alert Sukun"
+              }],
+              "subject": "Upptime Alert: ${{ github.event.issue.title }}",
+              "htmlContent": "<p>A new issue was created: <strong>${{ github.event.issue.title }}</strong></p><p><a href=\"${{ github.event.issue.html_url }}\">View Issue on GitHub</a></p>"
+            }'
