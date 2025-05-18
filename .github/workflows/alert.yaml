@@ -1,22 +1,19 @@
-- name: Send Email Alert
+- name: Send Email with Brevo
   if: github.event_name == 'issues' && github.event.action == 'opened'
   run: |
-    curl --request POST \
-      --url https://api.sendgrid.com/v3/mail/send \
-      --header "Authorization: Bearer ${{ secrets.SENDGRID_API_KEY }}" \
-      --header 'Content-Type: application/json' \
-      --data '{
-        "personalizations": [
-          {
-            "to": [{"email": "your-email@example.com"}],
-            "subject": "Upptime Alert: New Issue Created"
-          }
-        ],
-        "from": {"email": "alert@yourdomain.com"},
-        "content": [
-          {
-            "type": "text/plain",
-            "value": "A new downtime issue has been created by Upptime. Check GitHub for details: https://github.com/${{ github.repository }}/issues"
-          }
-        ]
+    curl -X POST https://api.brevo.com/v3/smtp/email \
+      -H "accept: application/json" \
+      -H "api-key: ${{ secrets.BREVO_API_KEY }}" \
+      -H "content-type: application/json" \
+      -d '{
+        "sender": {
+          "name": "Upptime Alert",
+          "email": "alert@sukuncloud.com"
+        },
+        "to": [{
+          "email": "suresh.mahawar1988@gmail.com",
+          "name": "Sukun"
+        }],
+        "subject": "Upptime Alert: New Downtime Issue",
+        "htmlContent": "<p>A new issue has been created for a downtime event. Check: <a href=\"https://github.com/${{ github.repository }}/issues\">GitHub Issues</a></p>"
       }'
