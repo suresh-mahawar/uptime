@@ -3,8 +3,11 @@ owner: suresh-mahawar # Your GitHub organization or username, where this reposit
 repo: uptime # The name of this repository
 
 sites:
-  - name: Sukuncloud 
-    url: https://www.sukuncloud.com
+  - name: SukunCloud Cloudflare
+    url: https://sukuncloud.com
+  - name: SukunCloud Mobile 
+    url: https://test.sukuncloud.com
+
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
