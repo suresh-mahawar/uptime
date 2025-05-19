@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 142,
-    "timeDay": 142,
-    "timeWeek": 142,
-    "timeMonth": 142,
-    "timeYear": 142,
+    "time": 146,
+    "timeDay": 146,
+    "timeWeek": 146,
+    "timeMonth": 146,
+    "timeYear": 146,
     "dailyMinutesDown": {}
   },
   {
@@ -23,18 +23,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/test.sukuncloud.com.ico",
     "slug": "sukun-cloud-mobile",
     "status": "up",
-    "uptime": "0.64%",
-    "uptimeDay": "0.64%",
-    "uptimeWeek": "0.64%",
-    "uptimeMonth": "0.64%",
-    "uptimeYear": "0.64%",
-    "time": 1342,
-    "timeDay": 1342,
-    "timeWeek": 1342,
-    "timeMonth": 1342,
-    "timeYear": 1342,
-    "dailyMinutesDown": {
-      "2025-05-18": 6
-    }
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 1262,
+    "timeDay": 1262,
+    "timeWeek": 1262,
+    "timeMonth": 1262,
+    "timeYear": 1262,
+    "dailyMinutesDown": {}
   }
 ]
