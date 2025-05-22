@@ -1,20 +1,20 @@
 [
   {
-    "name": "SukunCloud Cloudflare",
+    "name": "SukunCloud",
     "url": "https://sukuncloud.com",
     "icon": "https://icons.duckduckgo.com/ip3/sukuncloud.com.ico",
-    "slug": "sukun-cloud-cloudflare",
+    "slug": "sukun-cloud",
     "status": "up",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 169,
-    "timeDay": 213,
-    "timeWeek": 169,
-    "timeMonth": 169,
-    "timeYear": 169,
+    "time": 272,
+    "timeDay": 272,
+    "timeWeek": 272,
+    "timeMonth": 272,
+    "timeYear": 272,
     "dailyMinutesDown": {}
   }
 ]
