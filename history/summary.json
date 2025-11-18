@@ -4,17 +4,19 @@
     "url": "https://sukuncloud.com",
     "icon": "https://icons.duckduckgo.com/ip3/sukuncloud.com.ico",
     "slug": "sukun-cloud",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.98%",
+    "uptimeDay": "95.82%",
+    "uptimeWeek": "99.40%",
+    "uptimeMonth": "99.86%",
+    "uptimeYear": "99.98%",
     "time": 219,
-    "timeDay": 161,
-    "timeWeek": 208,
-    "timeMonth": 207,
+    "timeDay": 171,
+    "timeWeek": 206,
+    "timeMonth": 206,
     "timeYear": 219,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-11-18": 60
+    }
   }
 ]
